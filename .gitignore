@@ -1,6 +1,26 @@
+# Ignorar entornos virtuales
 .venv/
+
+# Ignorar archivos de bytecode de Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
 
+# Ignorar archivos temporales y de sistema
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
 
+# Ignorar configuraciones de editores
+.vscode/
+.idea/
 
+# Ignorar directorios de distribución/compilación (si usas PyInstaller u otro empaquetador)
+build/
+dist/
+*.spec
+
+# Archivos específicos del entorno pip
+*.egg-info/
+pip-wheel-metadata/
